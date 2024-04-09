@@ -1,3 +1,14 @@
 .camera video {
     transform: scaleX(-1);
 }
+
+.web_camera_container {
+    width: 100%;
+}
+
+.video-cam {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scaleX(-1);
+}

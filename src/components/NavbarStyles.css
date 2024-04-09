@@ -51,7 +51,7 @@
 }
 
 .nav-links:hover{
-    background-color: #01959a;
+    background-color: #7fa175;
     color: #fff;
     border-radius: 4px;
     transition:all 0.25s ease-in-out;
@@ -62,7 +62,7 @@
 }
 
 button{
-    padding: 0.7rem 1rem;
+    padding: 0.6rem 0.9rem;
     white-space: nowrap;
     border-radius: 0.3rem;
     font-size: 1rem;
@@ -71,10 +71,11 @@ button{
     cursor: pointer;
     transition: 0.25s ease-in-out;
     text-decoration: none;
+    background-color: #c6c5c5;
 }
 
 button:hover{
-    background-color: #01959a;
+    background-color: #7fa175;
     color: #fff;
 }
 

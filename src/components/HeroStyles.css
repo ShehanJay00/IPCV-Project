@@ -50,10 +50,10 @@ img{
 
 .hero-text .show{
     text-decoration:none;
-    background: #e4e0e0;
+    background: #d4d7d7;
     padding: 0.9rem 1.2rem;
     border-radius: 10px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
     letter-spacing: 1.5px;
     color: #222;
@@ -61,7 +61,7 @@ img{
 }
 
 .hero-text .show:hover {
-    background-color: #01959a; 
+    background-color: #7fa175; 
 }
 
 
