@@ -10,7 +10,13 @@
     position: relative;
 }
 
+/* .hero-mid{
+    mask-image: linear-gradient(to top, transparent, black);
+} */
 
+/* .hero img {
+    mask-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8));
+} */
 
 img{
     width: 100%;

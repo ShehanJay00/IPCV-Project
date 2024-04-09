@@ -54,11 +54,11 @@
 
 .w-card p{
     margin: 1rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 @media screen and (max-width:850px) {
-    .work{
+    .works{
         margin: 4rem 2rem;
     }
 

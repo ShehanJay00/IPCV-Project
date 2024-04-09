@@ -1,6 +1,9 @@
 import Navbar from "../components/Navbar.js";
 // import Hero from "../components/Hero.js";
+import WebCamera from "../components/webcamera.js";
 import Footer from "../components/footer.js";
+import PredictWorks from "../components/predict.js";
+
 
 function Predict(){
     return(
@@ -15,7 +18,8 @@ function Predict(){
         url     = "/"
         btnClass= "hide"
         /> */}
-        
+        <PredictWorks />
+        <WebCamera/>
         <Footer />
         </>
     )
