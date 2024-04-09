@@ -1,0 +1,2 @@
+import "./predictStyles.css";
+

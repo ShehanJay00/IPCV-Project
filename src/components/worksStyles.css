@@ -1,0 +1,74 @@
+.works{
+    margin: 1.5rem 6rem;
+    color:#222;
+}
+
+.works h1{
+    font-size: 2.8rem;
+}
+
+.work-card{
+    margin-top:3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-card{
+    width:32%;
+    text-align: start;
+    box-shadow: -1px 10px 50px -18px #01959a;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 1rem 0.8rem;
+}
+
+.w-image{
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin:0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.w-image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+    border-radius: 7px;
+
+}
+
+.w-image img:hover{
+    transform: scale(1.3);
+}
+
+.w-card{
+    font-size: 1.3rem;
+    padding: 0.9rem 0.2rem 0;
+}
+
+.w-card h4{
+    text-align: center;
+    margin-bottom:1rem;
+    margin-top: 1.5rem;
+}
+
+.w-card p{
+    margin: 1rem;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width:850px) {
+    .work{
+        margin: 4rem 2rem;
+    }
+
+    .work-card{
+        flex-direction: column;
+
+    }
+
+    .w-card{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
