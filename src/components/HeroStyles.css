@@ -35,26 +35,27 @@ img{
 .hero-text h1{
     font-size: 4rem;
     font-weight: 800;
-    background:white;
+    background:linear-gradient(to right, #abb2b0, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .hero-text p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
-    color:white;
+    color:rgba(255, 255, 255, 0.846);
     padding: 0.1rem 0 2rem 0;
+    letter-spacing: 1.1px;
 }
 
 .hero-text .show{
     text-decoration:none;
-    background: white;
-    padding: 1rem 2rem;
-    border-radius: 6px;
+    background: #e4e0e0;
+    padding: 0.9rem 1.2rem;
+    border-radius: 10px;
     font-size: 1.2rem;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     color: #222;
     transition: background-color 0.3s ease-in-out;
 }
@@ -82,7 +83,7 @@ img{
         padding: 0.8rem 1.1rem;
         border-radius: 1rem;
         font-size: 1rem;
-        background:#01959a;
+        background:white;
     }
 }
 
