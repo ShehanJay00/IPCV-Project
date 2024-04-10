@@ -18,7 +18,7 @@ function AboutModel(){
             <h1>MODEL AND TECHNOLOGIES</h1>
             <p>Our skin analysis and consultation services go beyond surface-level assessments, delving deep into the intricacies of your skin's unique composition. Through advanced technology and expert analysis, we uncover your skin's individual needs, concerns, and potential, providing you with invaluable insights and personalized recommendations tailored to your skin type and goals.</p>
             
-            <div className="work-card">
+            <div className="tech-card">
                 <AboutData
                 image = {Img1}
                 heading = "TensorFlow"
@@ -44,7 +44,7 @@ function AboutModel(){
                 />
             </div>
 
-            <div className="work-card">
+            <div className="tech-card">
                 <AboutData
                 image = {Img5}
                 heading = "React"

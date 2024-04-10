@@ -7,7 +7,7 @@
     font-size: 2.8rem;
 }
 
-.work-card{
+.tech-card{
     margin-top:3rem;
     display: flex;
     justify-content: space-between;
@@ -62,13 +62,13 @@
         margin: 4rem 2rem;
     }
 
-    .work-card{
-        flex-direction: column;
-
+    .tech-card{
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .t-card{
-        width: 100%;
+        width: 50%;
         margin-bottom: 1.5rem;
     }
 }
