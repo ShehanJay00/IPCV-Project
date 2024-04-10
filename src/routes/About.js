@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar.js";
 import Hero from "../components/Hero.js";
 import Footer from "../components/footer.js";
 import AboutImg from "../assets/AI.png";
+import AboutModel from "../components/about.js"
 
 function About(){
     return(
@@ -16,6 +17,7 @@ function About(){
         url     = "/"
         btnClass= "hide"
         />
+        <AboutModel />
         <Footer />
         </>
     )
